@@ -4,9 +4,9 @@ For learning and reviewing various algorithms
 
 | 型 | オブジェクトの例 |オブジェクトの性質|
 | ------------- | ------------- | ------------- |
-|int|0,1,-9||
-|float|0.0,-1.5||
-|bool|True,False||
+|int|0,1,-9||||
+|float|0.0,-1.5||||
+|bool|True,False|||
 |NoneType|None||
 |str|||
 |tuple|||
