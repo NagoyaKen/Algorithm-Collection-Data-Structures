@@ -1,8 +1,16 @@
-# Algorithm_Collection
+# Algorithm_Collection & Data structure
 For learning and reviewing various algorithms
 
 
-| ヘッダ 1 | ヘッダ 2 |
-| ------------- | ------------- |
-| 内容セル  | 内容セル  |
-| 内容セル  | 内容セル  |
+| 型 | オブジェクトの例 |オブジェクトの性質|
+| ------------- | ------------- | ------------- |
+|int|||
+|float|||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
+||||
