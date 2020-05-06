@@ -33,4 +33,4 @@ l = quick_sort(l)
 end = time.time() - start
 
 print(l)
-print(end)
+print('処理時間は ' + str(end))
