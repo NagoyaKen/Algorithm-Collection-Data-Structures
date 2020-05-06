@@ -17,7 +17,7 @@ For learning and reviewing various algorithms
 
 *what do sequence iterable Mutable mean?
 
-sequence
+sequence/n
 連続、続発、(因果的)連鎖、(連続して起こる)結果、ひと続き、(起こる)順序、(同じ組の)続き札、順位札、シークエンス、(数)列
 などの意味がある。
 ・要素を番号付けして格納している。
