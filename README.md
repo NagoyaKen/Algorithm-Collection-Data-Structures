@@ -8,12 +8,12 @@ For learning and reviewing various algorithms
 |float|0.0,-1.5|||
 |bool|True,False|||
 |NoneType|None||
-|str|'','abc'|sequence&Iterable|
-|tuple|(),(2,),(1,2,'a')|sequence&Iterable|
-|range|range(0,4)|sequence&Iterable|
-|list|[],[1],[1,2,'a']|sequence&Iterable&Mutable|
-|set|set(),{2},|Iterable&Mutable|
-|dict|{1:a,2:b},{}|Iterable&Mutable|
+|str|'','abc'|sequence Iterable|
+|tuple|(),(2,),(1,2,'a')|sequence Iterable|
+|range|range(0,4)|sequence Iterable|
+|list|[],[1],[1,2,'a']|sequence Iterable Mutable|
+|set|set(),{2},|Iterable Mutable|
+|dict|{1:a,2:b},{}|Iterable Mutable|
 
 *what do sequence iterable Mutable mean?
 
