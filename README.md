@@ -1,4 +1,4 @@
-# Algorithm Collection & Data structure
+# Algorithm & Data structure
 For learning and reviewing various algorithms
 
 
