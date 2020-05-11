@@ -1,0 +1,26 @@
+import time
+import random
+
+#バブルソート処理
+def bubble_sort(arr):
+    change = True
+    while change:
+        change = False
+        for i in range(len(arr) - 1):
+            if arr[i] > arr[i + 1]:
+                arr[i], arr[i + 1] = arr[i + 1], arr[i]
+                change = True
+    return arr
+    
+#ランダムな要素のlistを作成    
+l = random.sample(range(10000000), k=1000)
+
+print(l)
+
+#速度計測
+start = time.time()
+l = bubble_sort(l)
+end = time.time() - start
+
+print(l)
+print('処理時間は ' + str(end))
