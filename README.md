@@ -49,7 +49,62 @@ immutable/mutable変数の参照・浅いコピー・深いコピー
 
 
 
+Linear Search(線形探索）
+・配列の先頭から順に比較し探索キーデータを探す。
 
+Nこのデータがある場合の探索に必要な比較回数
+・最良：　1回
+・最悪：　N回
+・平均：(n+1)/2回
+
+参考（C言語）
+int linear_search(int array[], int n, int key) {
+ int i;
+ for(i = 0; i < n; i++){
+ if(array[i] == key){
+ return i;
+   }
+  }
+  return -1;
+ }
+
+Binary Search(2分探索）
+・整列済みの配列に対して探索を行う
+・配列中央の値と探索キーを比較し、
+探索キーの値との大小関係を元に探索を進める。
+
+参考
+int binary_search(int array[],int num.int key){
+int middle,low,high;
+low = 0;
+high = num -1;
+while(low <= high){
+middle = (low + high) / 2;
+if(key == array[middle]){
+return middle;
+}
+else if(key<array[midddle]){
+high = middle -1;
+}
+else{
+low = middle + 1;
+}
+}
+return -1;
+}
+
+*lsearch()やbsearch()関数がある
+
+
+計算量
+ビッグ・オー記法
+・OはOrderの意味
+・データの数と実行時間の関係を表現
+・アルゴリズムの速度を比較する
+
+Logarithmic time 対数時間 log2N ,Nlog2N
+Polynomial time 多項式時間 N**2
+Exponential time 指数関数時間 2**nN
 
 |||
 | ------------- | ------------- |
