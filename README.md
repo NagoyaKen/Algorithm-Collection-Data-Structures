@@ -96,7 +96,7 @@ return -1;
 *lsearch()やbsearch()関数がある
 
 
-計算量
+## 計算量
 ビッグ・オー記法
 ・OはOrderの意味
 ・データの数と実行時間の関係を表現
@@ -106,7 +106,7 @@ Logarithmic time 対数時間 log2N ,Nlog2N
 Polynomial time 多項式時間 N**2
 Exponential time 指数関数時間 2**nN
 
-Stack
+## Stack(積み重ねる）
 ・push
 データをスタック頂上に積む操作。
 ・pop
@@ -119,7 +119,7 @@ Stack
 スタック頂上にあるデータを複製し、複製したデータウィ頂上にプッシュする。
 
 
-数式の記法
+## 数式の記法
 ・Prefix notation(前置記法)
 + 1 2
 
